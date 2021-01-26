@@ -1,5 +1,6 @@
 @import "./fonts";
 @import "./theme";
+@import "./../../node_modules/bulma/bulma.sass";
 @import "~bulma/sass/utilities/_all"; // sass-lint:disable-line clean-import-paths
 @import "~bulma/sass/base/_all"; // sass-lint:disable-line clean-import-paths
 @import "~bulma/sass/elements/container";
@@ -14,11 +15,10 @@
 @import "~bulma/sass/components/media";
 @import "~bulma/sass/grid/columns";
 
-// @import "./home";
-// @import "./stack";
+@import "./home";
+@import "./stack";
 // @import "../components/Header/Header";
 // @import "../components/Card/Card";
-// @import "../components/LanguageSwitcher/LanguageSwitcher";
 s hr {
   margin: 1rem auto;
   width: 60px;

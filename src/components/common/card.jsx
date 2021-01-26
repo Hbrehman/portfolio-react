@@ -37,7 +37,7 @@ const Card = ({ title, subtitle, link, tags, image }) => {
       <div className="card">
         <div className="card-content">
           <div className="media">
-            <div className="media-left">{image}</div>
+            <div className="media-left ">{image}</div>
             <div className="media-content">
               <h4 className="title is-size-5-desktop is-size-6-touch has-text-light">
                 {title}

@@ -1,16 +1,15 @@
 import React from "react";
 import Helmet from "react-helmet";
-import Layout from "components/Layout";
-import SEO from "components/Seo";
+// import SEO from "components/Seo";
 
 const Stack = () => (
-  <Layout>
-    <SEO
+  <>
+    {/* <SEO
       lang="eng"
       title="Stack"
       description={"Front-end developer, developing apps and web pages"}
       keywords={"React, Node, Gatsby, Front-end, developer, API"}
-    />
+    /> */}
     <section className="section is-size-4-desktop is-size-5-touch">
       <Helmet
         script={[
@@ -44,7 +43,7 @@ const Stack = () => (
         </div>
       </div>
     </section>
-  </Layout>
+  </>
 );
 
 export default Stack;

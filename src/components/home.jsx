@@ -20,7 +20,7 @@ const Home = () => (
       description="Front-end developer, developing apps and web pages"
       keywords="React, Node, Gatsby, Front-end, developer, API"
     /> */}
-    <div className="container">
+    <div className="container center">
       <div className="columns is-mobile">
         <div className="column">
           <figure className="photo image is-128x128">
@@ -38,24 +38,6 @@ const Home = () => (
           </h2>
         </div>
       </div>
-      <div className="has-text-centered is-mobile">
-        <a href={"facebook.com"} aria-label="github">
-          <span className="icon is-large">
-            <FontAwesomeIcon className="fab fa-2x" icon={["fab", "github"]} />
-          </span>
-        </a>
-        <a href={"facebook.com"} aria-label="twitter">
-          <span className="icon is-large">
-            <FontAwesomeIcon className="fab fa-2x" icon={["fab", "twitter"]} />
-          </span>
-        </a>
-
-        <a href={"facebook.com"} aria-label="linkedin">
-          <span className="icon is-large">
-            <FontAwesomeIcon className="fab fa-2x" icon={["fab", "linkedin"]} />
-          </span>
-        </a>
-      </div>
     </div>
     <section className="section is-size-4-desktop is-size-5-touch">
       <div className="container content">
@@ -65,11 +47,11 @@ const Home = () => (
             👋
           </span>
         </h4>
-        <p>
+        <p className="has-text-justified">
           I am a passionate software engineer and a thinker who builds creative
-          and original digital products in javaScript. I possess an exceptional
-          work ethic and excellent problem-solving skills. I have a deep
-          knowledge of accessible and responsive digital products.
+          and original digital products. I possess an exceptional work ethic and
+          excellent problem-solving skills. I have a deep knowledge of
+          accessible and responsive digital products.
         </p>
         {/* <p>I develop projects mostly with JavaScript using React and Node.</p> */}
         <p>

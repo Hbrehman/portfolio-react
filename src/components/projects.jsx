@@ -2,7 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 // import SEO from "components/Seo";
 import Card from "./common/card";
-import projectOnePic from "./../assets/images/gatsby-course.jpg";
+import tntImg from "./../assets/images/tnt.png";
+import eliteMatchImg from "./../assets/images/eliteMatch.png";
+import reactGramImg from "./../assets/images/reactGram.png";
 
 const Projects = () => (
   <>
@@ -24,16 +26,87 @@ const Projects = () => (
           {"."}
         </p>
         <div className="columns">
-          <div className="column is-half is-offset-one-quarter">
+          {/* <div className="column is-half is-offset-one-quarter"> */}
+          <div className="column is-full-mobile is-full-touch">
             <>
               <Card
-                title={"Project One"}
-                subtitle={"subtitle"}
-                link={"facebook.com"}
-                tags={["Tech 1", "Tech 2"]}
+                title={"TileNTaps"}
+                description={
+                  "Developed an e-commerce web application in Node.js for my cousin’s business. The main functionality includes Authentication and Authorization using JSON Web Token, Error Handling with express.js, CRUD operations, Building RESTful API, implemented shopping cart, File Uploading using Mutler package, Sending Emails to customers using Nodemailer."
+                }
+                link={"https://tnt-hb.herokuapp.com"}
+                tags={[
+                  "Node.js",
+                  "Webpack",
+                  "Express.js",
+                  "SCSS",
+                  "Bootstrap",
+                  "Amazon S3",
+                ]}
                 image={
-                  <figure class="image is-300x300">
-                    <img src={projectOnePic} alt={"project one"} />
+                  <figure className="image">
+                    <img src={tntImg} alt={"project one"} />
+                  </figure>
+                }
+              />
+              <Card
+                title={"Elite Match"}
+                description={
+                  "Developed a Matrimonial web application for my final year project. Progress of app is stored on a backend created using Node.js and MongoDB. The backend built using Node.js, Express.js, and MongoDB takes advantage of well-developed RESTful API. While the Frontend of the application is created using vanilla JavaScript, Webpack, Bootstrap, and SCSS"
+                }
+                link={"https://elitematch.herokuapp.com"}
+                tags={[
+                  "Node.js",
+                  "Webpack",
+                  "Express.js",
+                  "SCSS",
+                  "Bootstrap",
+                  "Amazon S3",
+                ]}
+                image={
+                  <figure className="image">
+                    <img src={eliteMatchImg} alt={"project one"} />
+                  </figure>
+                }
+              />
+
+              <Card
+                title={"MERN Loop"}
+                description={
+                  "Developed a Matrimonial web application for my final year project. Progress of app is stored on a backend created using Node.js and MongoDB. The backend built using Node.js, Express.js, and MongoDB takes advantage of well-developed RESTful API. While the Frontend of the application is created using vanilla JavaScript, Webpack, Bootstrap, and SCSS"
+                }
+                link={"https://elitematch.herokuapp.com"}
+                tags={[
+                  "Node.js",
+                  "Webpack",
+                  "Express.js",
+                  "SCSS",
+                  "Bootstrap",
+                  "Amazon S3",
+                ]}
+                image={
+                  <figure className="image">
+                    <img src={eliteMatchImg} alt={"project one"} />
+                  </figure>
+                }
+              />
+              <Card
+                title={"React Gram"}
+                description={
+                  "Developed a Matrimonial web application for my final year project. Progress of app is stored on a backend created using Node.js and MongoDB. The backend built using Node.js, Express.js, and MongoDB takes advantage of well-developed RESTful API. While the Frontend of the application is created using vanilla JavaScript, Webpack, Bootstrap, and SCSS"
+                }
+                link={"https://elitematch.herokuapp.com"}
+                tags={[
+                  "Node.js",
+                  "Webpack",
+                  "Express.js",
+                  "SCSS",
+                  "Bootstrap",
+                  "Amazon S3",
+                ]}
+                image={
+                  <figure className="image">
+                    <img src={reactGramImg} alt={"project one"} />
                   </figure>
                 }
               />

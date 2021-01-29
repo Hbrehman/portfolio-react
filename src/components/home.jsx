@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import SEO from "./common/seo";
 import profilePic from "./../assets/images/habib.jpg";
 import {
   faGithub,
@@ -9,19 +10,20 @@ import {
   faLinkedin,
 } from "@fortawesome/fontawesome-free-brands";
 
-// import SEO from "components/Seo";
+import Projects from "./projects";
+import Stack from "./stack";
 
 library.add(faGithub, faTwitter, faLinkedin);
 
 const Home = () => (
   <>
-    {/* <SEO
+    <SEO
       lang="en"
-      description="Front-end developer, developing apps and web pages"
-      keywords="React, Node, Gatsby, Front-end, developer, API"
-    /> */}
+      description="Full Stack developer, MERN Stack developer, Software Engineer, developing apps and web pages"
+      keywords="Reactjs, Nodejs, mern stack, software engineer, backend, frontend, developer, API"
+    />
     <div className="container center">
-      <div className="columns is-mobile">
+      <div className="columns is-mobile mb-0">
         <div className="column">
           <figure className="photo image is-128x128">
             <img
@@ -38,26 +40,38 @@ const Home = () => (
           </h2>
         </div>
       </div>
+      <div className="has-text-centered is-mobile">
+        <a href="https://github.com/hbrehman" aria-label="github">
+          <span className="icon is-large">
+            <FontAwesomeIcon className="fab fa-2x" icon={["fab", "github"]} />
+          </span>
+        </a>
+        <a href="https://twitter.com/hbrehman_js" aria-label="twitter">
+          <span className="icon is-large">
+            <FontAwesomeIcon className="fab fa-2x" icon={["fab", "twitter"]} />
+          </span>
+        </a>
+
+        <a href="https://linkedin.com/in/hbrehman" aria-label="linkedin">
+          <span className="icon is-large">
+            <FontAwesomeIcon className="fab fa-2x" icon={["fab", "linkedin"]} />
+          </span>
+        </a>
+      </div>
     </div>
-    <section className="section is-size-4-desktop is-size-5-touch">
+    <section className="section main-section is-size-4-desktop is-size-5-touch">
       <div className="container content">
         <h4 className="title has-text-light">
-          Hello, I am Habib Ur Rehman!
+          Hi there!
           <span className="emoji" role="img" aria-label="wave">
             👋
           </span>
         </h4>
         <p className="has-text-justified">
-          I am a passionate software engineer and a thinker who builds creative
-          and original digital products. I possess an exceptional work ethic and
-          excellent problem-solving skills. I have a deep knowledge of
-          accessible and responsive digital products.
-        </p>
-        {/* <p>I develop projects mostly with JavaScript using React and Node.</p> */}
-        <p>
-          check out my
-          <Link to={"/projects"}> personal projects</Link>
-          {"."}
+          &nbsp;&nbsp;&nbsp;&nbsp; I am a passionate software engineer and a
+          thinker who builds creative and original digital products. I possess
+          an exceptional work ethic and excellent problem-solving skills. I have
+          a deep knowledge of accessible and responsive digital products.
         </p>
       </div>
     </section>

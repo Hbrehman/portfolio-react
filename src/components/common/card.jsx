@@ -8,9 +8,9 @@ const Card = ({ title, description, link, tags, image }) => {
       <a href={link}>
         <div className="project-card">
           <div className="project-card-content">
-            <div className="project-image">{image}</div>
+            {/* <div className="project-image">{image}</div> */}
             <div className="project-content">
-              <h4 className="title is-size-5-desktop is-size-6-touch has-text-light">
+              <h4 className="title has-text-centered is-size-5-desktop is-size-6-touch has-text-light">
                 {title}
               </h4>
               <p className="subtitle is-size-5-desktop is-size-6-touch has-text-light">

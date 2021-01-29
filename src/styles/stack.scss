@@ -1,5 +1,14 @@
 .stackshare {
   iframe {
-    height: 1375px;
+    border-radius: 6px !important;
+    // height: 630px;
   }
+}
+.function-name-wrapper {
+  // display: none !important;
+  background-color: red !important;
+}
+.stackshare {
+  width: 80%;
+  margin: auto;
 }

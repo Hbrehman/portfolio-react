@@ -60,8 +60,8 @@ const Home = () => (
       </div>
     </div>
     <section className="section main-section is-size-4-desktop is-size-5-touch">
-      <div className="container content">
-        <h4 className="title has-text-light">
+      <div id="greetingNabout" className="container content">
+        <h4 id="greetings-msg" className="title  has-text-light">
           Hi there!
           <span className="emoji" role="img" aria-label="wave">
             👋

@@ -10,7 +10,21 @@ span {
 .main-section {
   padding-top: 10px !important;
 }
+#greetingNabout {
+  width: 75%;
+  margin: auto;
+  h4#greetings-msg {
+    margin-top: 1rem !important;
+    margin-bottom: 0rem !important;
+  }
+}
 
 .mb-0 {
   margin-bottom: 0 !important;
+}
+
+@media (max-width: 768px) {
+  #greetingNabout {
+    width: 100%;
+  }
 }

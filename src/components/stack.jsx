@@ -24,7 +24,7 @@ import StackItem from "./common/stackItem";
 
 const Stack = () => (
   <>
-    <section className="section  is-size-4-desktop is-size-5-touch">
+    <section id="stack" className="section  is-size-4-desktop is-size-5-touch">
       <Helmet
         script={[
           {

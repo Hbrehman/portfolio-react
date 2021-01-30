@@ -1,6 +1,15 @@
 import React, { useState } from "react";
 
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import {
+  Link,
+  DirectLink,
+  Element,
+  Events,
+  animateScroll,
+  scrollSpy,
+  scroller,
+} from "react-scroll";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -29,21 +38,36 @@ const Navbar = () => {
           <div className="navbar-end">
             <Link
               className="navbar-item is-size-5"
-              to="/"
+              activeClass="is-active"
+              to="home"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={20}
               onClick={() => setIsMenuOpen(false)}
             >
               Home
             </Link>
             <Link
               className="navbar-item is-size-5"
-              to="/projects"
+              to="projects"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={20}
               onClick={() => setIsMenuOpen(false)}
             >
               Projects
             </Link>
             <Link
               className="navbar-item is-size-5"
-              to="/stack"
+              activeClass="active"
+              to="stack"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={20}
               onClick={() => setIsMenuOpen(false)}
             >
               Stack

@@ -10,9 +10,6 @@ import {
   faLinkedin,
 } from "@fortawesome/fontawesome-free-brands";
 
-import Projects from "./projects";
-import Stack from "./stack";
-
 library.add(faGithub, faTwitter, faLinkedin);
 
 const Home = () => (
@@ -22,7 +19,7 @@ const Home = () => (
       description="Full Stack developer, MERN Stack developer, Software Engineer, developing apps and web pages"
       keywords="Reactjs, Nodejs, mern stack, software engineer, backend, frontend, developer, API"
     />
-    <div className="container center">
+    <div id="home" className="container center">
       <div className="columns is-mobile mb-0">
         <div className="column">
           <figure className="photo image is-128x128">

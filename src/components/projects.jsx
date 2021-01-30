@@ -3,7 +3,10 @@ import Card from "./common/card";
 
 const Projects = () => (
   <>
-    <section className="section is-size-4-desktop is-size-5-touch">
+    <section
+      id="projects"
+      className="section is-size-4-desktop is-size-5-touch"
+    >
       <h1 className="title has-text-centered has-text-light">Projects</h1>
       <div className="container">
         <hr />

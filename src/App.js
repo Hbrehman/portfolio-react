@@ -3,6 +3,8 @@ import Navbar from "./components/common/navbar";
 import Home from "./components/home";
 import Projects from "./components/projects";
 import Stack from "./components/stack";
+import Contact from "./components/contact";
+import Footer from "./components/common/footer";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Home />
       <Projects />
       <Stack />
+      <Contact />
+      <Footer />
     </div>
   );
 }

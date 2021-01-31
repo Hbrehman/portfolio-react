@@ -6,56 +6,77 @@
   border-radius: 0.25rem;
   box-shadow: none;
 
-  &:hover {
-    background-color: $card-hover-color;
-  }
-}
+  // &:hover {
+  //   background-color: $card-hover-color;
+  // }
 
-.project-card-content {
-  padding: 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.title {
-  padding-bottom: 0.7rem;
-  letter-spacing: 0.1rem;
-}
-.subtitle {
-  text-align: justify;
-  letter-spacing: 0.1rem;
-  padding: 0.5rem;
-  font-size: 1rem !important;
-}
-
-@media (max-width: 586px) {
-  .project-card {
-    width: 100%;
-    margin: auto;
-    margin-top: 1.5rem;
-    background-color: #292929;
-    border-radius: 0.25rem;
-    box-shadow: none;
-  }
   .project-card-content {
-    padding: 0.8rem;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  h1.title {
-    margin-bottom: 1rem !important;
-    padding-bottom: 0px;
-  }
-  h4.title {
-    margin-top: 0rem !important;
-    margin-bottom: 0.7rem !important;
+
+  .title {
+    padding-bottom: 0.7rem;
     letter-spacing: 0.1rem;
   }
   .subtitle {
     text-align: justify;
     letter-spacing: 0.1rem;
-    margin-bottom: 0.5rem !important;
-    // padding: 0.5rem;
+    padding: 0.5rem;
     font-size: 1rem !important;
+  }
+
+  .links span {
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    font-size: 3rem;
+  }
+  .project-card-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .tags {
+    margin-bottom: 0 !important;
+  }
+  .project-link {
+    max-height: 1rem !important;
+    .icon {
+      font-size: 1.2rem !important;
+      margin: 0.3rem;
+    }
+  }
+
+  @media (max-width: 586px) {
+    .project-card {
+      width: 100%;
+      margin: auto;
+      margin-top: 1.5rem;
+      background-color: #292929;
+      border-radius: 0.25rem;
+      box-shadow: none;
+    }
+    .project-card-content {
+      padding: 0.8rem;
+    }
+    h1.title {
+      margin-bottom: 1rem !important;
+      padding-bottom: 0px;
+    }
+    h4.title {
+      margin-top: 0rem !important;
+      margin-bottom: 0.7rem !important;
+      letter-spacing: 0.1rem;
+    }
+    .subtitle {
+      text-align: justify;
+      letter-spacing: 0.1rem;
+      margin-bottom: 0.5rem !important;
+      // padding: 0.5rem;
+      font-size: 1rem !important;
+    }
   }
   s hr {
     margin: 0.7rem auto !important;

@@ -45,7 +45,7 @@ const Home = () => (
         </a>
         <a href="https://twitter.com/hbrehman_js" aria-label="twitter">
           <span className="icon is-large">
-            <FontAwesomeIcon className="fab fa-2x" icon={["fab", "twitter"]} />
+            <FontAwesomeIcon className="fas fa-2x" icon={["fab", "twitter"]} />
           </span>
         </a>
 

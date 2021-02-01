@@ -7,28 +7,25 @@ import ogImage from "./../../assets/images/habib.jpg";
 const HOST = process.env.NODE_ENV === "production" ? "https://habib.codes" : "";
 
 const SEO = ({ description, lang, meta, keywords, title }) => (
-  <Helmet
-    htmlAttributes={{ lang }}
-    title={title}
-    titleTemplate={title}
-    meta={[
-      { name: "description", content: description },
-      { name: "keywords", content: keywords },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:creator", content: "Habib Ur Rehman" },
-      { name: "twitter:title", content: title },
-      { name: "twitter:description", content: description },
-      { property: "og:title", content: title },
-      { property: "og:description", content: description },
-      { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://habib.codes" },
-      { property: "og:image", content: `https://habib.codes/${ogImage}` },
-      { property: "og:image:alt", content: description },
-      { property: "og:image:type", content: "image/jpg" },
-      { property: "og:image:width", content: "1365" },
-      { property: "og:image:height", content: "1365" },
-    ].concat(meta)}
-  />
+  <Helmet>
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="keywords" content={keywords} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="Habib Ur Rehman" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={"https://habib.codes"} />
+    <meta property="og:image" content={`https://habib.codes/${ogImage}`} />
+    <meta property="og:image:alt" content={description} />
+    <meta property="og:image:type" content="image/jpg" />
+    <meta property="og:image:width" content="1365" />
+    <meta property="og:image:width" content="1365" />
+    <meta property="og:image:height" content="1365" />
+  </Helmet>
 );
 
 SEO.propTypes = {

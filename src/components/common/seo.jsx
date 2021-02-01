@@ -22,7 +22,7 @@ const SEO = ({ description, lang, meta, keywords, title }) => (
       { property: "og:description", content: description },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "https://habib.codes" },
-      { property: "og:image", content: `${HOST}${ogImage}` },
+      { property: "og:image", content: `https://habib.codes/${ogImage}` },
       { property: "og:image:alt", content: description },
       { property: "og:image:type", content: "image/jpg" },
       { property: "og:image:width", content: "1365" },

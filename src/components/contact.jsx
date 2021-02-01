@@ -9,8 +9,9 @@ const Contact = () => (
       <div className="container">
         <hr />
         <p className="has-text-centered">
-          I'm constantly looking for new opportunities. Whether you have a
-          question or just want to say hi, I'll try my best to get back to you!
+          I'm constantly looking for new opportunities. Whether you have any
+          exciting opportunity or just want to say hi, I'll try my best to get
+          back to you!
         </p>
         <div className="columns">
           <div className="column is-full-mobile is-full-touch">

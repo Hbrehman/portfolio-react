@@ -48,16 +48,17 @@
       margin: 0.3rem;
     }
   }
+}
 
-  @media (max-width: 586px) {
-    .project-card {
-      width: 100%;
-      margin: auto;
-      margin-top: 1.5rem;
-      background-color: #292929;
-      border-radius: 0.25rem;
-      box-shadow: none;
-    }
+@media (max-width: 586px) {
+  .project-card {
+    width: 100%;
+    margin: auto;
+    margin-top: 1.5rem;
+    background-color: #292929;
+    border-radius: 0.25rem;
+    box-shadow: none;
+
     .project-card-content {
       padding: 0.8rem;
     }

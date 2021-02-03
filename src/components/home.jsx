@@ -16,7 +16,7 @@ const Home = () => (
   <>
     <SEO
       lang="en"
-      description="Full Stack developer, MERN Stack developer, Software Engineer, developing apps and web pages"
+      description="Habib Ur Rehman, Software Engineer."
       keywords="Reactjs, Nodejs, mern stack, software engineer, backend, frontend, developer, API"
     />
     <div id="home" className="container center">

@@ -48,8 +48,8 @@ const Projects = () => (
                 description={
                   "Gadgeties is an application built with robust technologies like Node.js and React.js. I built this project for fun and to enhance my programming skills. Some major functionalities include searching movies based on their names, sorting based on different movie attributes, filtering based on movie genres, pagination, authentication, and authorization. The frontend of the application consumes RESTful API’s built with Express.js and MongoDB."
                 }
-                liveLink={"https://eitematch.herokuapp.com"}
-                githubLink={"https://tnt-hb.herokuapp.com"}
+                liveLink={"https://elitematch.herokuapp.com"}
+                githubLink={"https://github.com/Hbrehman/gadgeties"}
                 tags={[
                   "React.js",
                   "Node.js",
@@ -72,9 +72,9 @@ const Projects = () => (
               <Card
                 title={"Elite Match"}
                 description={
-                  "Elite Match is a Matrimonial application that is built for my final year project. Progress of app is stored on a backend created using Node.js and MongoDB. The backend takes advantage of well-developed RESTful API. While the Frontend of the application is created using vanilla JavaScript, Webpack, Bootstrap, and SCSS."
+                  "Elite Match is a Matrimonial application that I built for my final year project. Progress of app is stored on a backend created using Node.js and MongoDB. The backend takes advantage of well-developed RESTful API. While the Frontend of the application is created using vanilla JavaScript, Webpack, Bootstrap, and SCSS."
                 }
-                liveLink={"https://eitematch.herokuapp.com"}
+                liveLink={"https://elitematch.herokuapp.com"}
                 githubLink={"https://github.com/Hbrehman/EliteMatch"}
                 tags={[
                   "ES6",

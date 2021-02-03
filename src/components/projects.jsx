@@ -48,7 +48,7 @@ const Projects = () => (
                 description={
                   "Gadgeties is an application built with robust technologies like Node.js and React.js. I built this project for fun and to enhance my programming skills. Some major functionalities include searching movies based on their names, sorting based on different movie attributes, filtering based on movie genres, pagination, authentication, and authorization. The frontend of the application consumes RESTful API’s built with Express.js and MongoDB."
                 }
-                liveLink={"https://elitematch.herokuapp.com"}
+                liveLink={"https://gadgeties.herokuapp.com"}
                 githubLink={"https://github.com/Hbrehman/gadgeties"}
                 tags={[
                   "React.js",

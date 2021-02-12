@@ -1,13 +1,33 @@
-# Getting Started with Create React App
+# Habib.codes | My Portfolio Project
 
-## Available Scripts
+I built this project to showcase my work. I constantly keep updating my portfolio as soon as I learn something new or build some interesting project.
 
-In the project directory, you can run:
 
-### `yarn start`
+<img align="center" src="https://s3-ap-southeast-1.amazonaws.com/tilentaps.com/projectImages/habibdotcodes.png" width="56%">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### [Live Demo](https://www.habib.codes/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Technology Stack
+
+- React
+- Bulma
+- Netlify
+
+## Quick start
+
+- Install dependencies
+
+  `npm run install`<br/>
+
+- Runnning the development server of the frontend
+
+  `npm run start`<br/>
+
+
+
+## Production build
+
+
+- Building the frontend
+  `npm run build`
+
